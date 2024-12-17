@@ -1,5 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.profile-card {
+  max-width: 370px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
 .image {
   postition: relative;
   height: 150px;
-  width: 150;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #4070f4;
+  padding: 3px;
+}
+
+.image .profile-img {
+  height: 100%;
+  width: 100%
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
 }
